@@ -30,13 +30,15 @@ splitfolders.ratio(input_folder,
 ) 
 this code split it into test, train, val. 
 the labels were made through this as well as setting up the onnx in the docker. i changed the labels to classify not only the title of the gem but also if it is precious, semi precious collectors or organic. i used the abbreviations P, SP, COLL and ORG. 
-to code the classifier the code looked like this: 
+
+# to code the classifier the code looked like this: 
+
 import jetson.inference
 import jetson.utils
 import cv2
 import numpy as np
 
-# Paths to dataset
+
 train_dir = "data/train"
 val_dir  = "data/val"
 
