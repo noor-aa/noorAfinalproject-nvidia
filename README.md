@@ -63,4 +63,5 @@ cv2.putText(img_bgr, label, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,0,255), 
 
 cv2.imwrite("bixyy.jpg", img_bgr)
 
-
+# video link
+https://drive.google.com/file/d/1ZezxptxTfTddLw87IJTCiepcJc7zwQLA/view?usp=sharing 
